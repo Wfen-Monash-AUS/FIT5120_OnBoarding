@@ -50,10 +50,9 @@ export default {
 
 .accessibility {
   font-size: 0.9rem;
-  display: none; /* Hidden on small mobile, visible on desktop usually */
+  display: none;
 }
 
-/* Show accessibility tool text on larger screens */
 @media (min-width: 600px) {
   .accessibility {
     display: block;
